@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="gameCollection" id="gTV-IL-0wX" customClass="GameCollectionViewCell" customModule="Game_Stack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="215"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="215"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihH-iM-VYP">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="215"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BLp-Rf-Wht">
+                                <rect key="frame" x="0.0" y="84" width="180" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="Z6J-bU-Yhk"/>
+                                    <constraint firstAttribute="width" constant="180" id="jMe-78-Vih"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pj7-Gp-4E7">
+                                <rect key="frame" x="63" y="14" width="55" height="28"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAj-7z-Jlw">
+                                <rect key="frame" x="70" y="52" width="41" height="21"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="cAj-7z-Jlw" firstAttribute="top" secondItem="Pj7-Gp-4E7" secondAttribute="bottom" constant="10" id="0vu-Yw-Jub"/>
+                            <constraint firstItem="BLp-Rf-Wht" firstAttribute="top" secondItem="cAj-7z-Jlw" secondAttribute="bottom" constant="11" id="4U3-4t-19p"/>
+                            <constraint firstItem="Pj7-Gp-4E7" firstAttribute="top" secondItem="ihH-iM-VYP" secondAttribute="top" constant="14" id="A7t-Zt-CzW"/>
+                            <constraint firstAttribute="trailing" secondItem="cAj-7z-Jlw" secondAttribute="trailing" constant="69" id="Ce3-2I-eOf"/>
+                            <constraint firstAttribute="bottom" secondItem="BLp-Rf-Wht" secondAttribute="bottom" id="GnV-ku-e3U"/>
+                            <constraint firstAttribute="trailing" secondItem="BLp-Rf-Wht" secondAttribute="trailing" id="Vvc-uN-5jv"/>
+                            <constraint firstAttribute="trailing" secondItem="Pj7-Gp-4E7" secondAttribute="trailing" constant="62" id="nVc-ej-deg"/>
+                            <constraint firstItem="BLp-Rf-Wht" firstAttribute="leading" secondItem="ihH-iM-VYP" secondAttribute="leading" id="pNn-XA-dJf"/>
+                            <constraint firstItem="cAj-7z-Jlw" firstAttribute="leading" secondItem="ihH-iM-VYP" secondAttribute="leading" constant="70" id="wI5-96-e8l"/>
+                            <constraint firstItem="cAj-7z-Jlw" firstAttribute="top" secondItem="Pj7-Gp-4E7" secondAttribute="bottom" constant="10" id="wv8-k6-Yco"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ihH-iM-VYP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Uvn-de-Ufm"/>
+                <constraint firstItem="ihH-iM-VYP" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="ynd-iB-pAC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="180" height="173"/>
+            <connections>
+                <outlet property="gameCollection" destination="ihH-iM-VYP" id="IWY-V6-Q4R"/>
+                <outlet property="gameImage" destination="BLp-Rf-Wht" id="3S7-En-L1l"/>
+                <outlet property="titleLabel" destination="Pj7-Gp-4E7" id="YDy-eE-sk3"/>
+                <outlet property="yearLabel" destination="cAj-7z-Jlw" id="iKv-Ms-Lgz"/>
+            </connections>
+            <point key="canvasLocation" x="230.43478260869566" y="88.727678571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

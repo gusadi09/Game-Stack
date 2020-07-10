@@ -13,6 +13,18 @@
 		F1789ED124B88A9B00002149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1789ECF24B88A9B00002149 /* Main.storyboard */; };
 		F1789ED324B88A9E00002149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1789ED224B88A9E00002149 /* Assets.xcassets */; };
 		F1789ED624B88A9E00002149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1789ED424B88A9E00002149 /* LaunchScreen.storyboard */; };
+		F1789EE624B88B2500002149 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EDE24B88B2500002149 /* Poppins-Regular.ttf */; };
+		F1789EE724B88B2500002149 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EDF24B88B2500002149 /* Poppins-Thin.ttf */; };
+		F1789EE824B88B2500002149 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EE024B88B2500002149 /* Poppins-Bold.ttf */; };
+		F1789EE924B88B2500002149 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EE124B88B2500002149 /* Poppins-Light.ttf */; };
+		F1789EEA24B88B2500002149 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EE224B88B2500002149 /* Poppins-ExtraLight.ttf */; };
+		F1789EEB24B88B2500002149 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EE324B88B2500002149 /* Poppins-Black.ttf */; };
+		F1789EEC24B88B2500002149 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EE424B88B2500002149 /* Poppins-Medium.ttf */; };
+		F1789EED24B88B2500002149 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1789EE524B88B2500002149 /* Poppins-ExtraBold.ttf */; };
+		F1789EF024B8B24000002149 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789EEE24B8B24000002149 /* GameCollectionViewCell.swift */; };
+		F1789EF124B8B24000002149 /* GameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1789EEF24B8B24000002149 /* GameCollectionViewCell.xib */; };
+		F1FE810B24B8C2C600F9DA52 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE810924B8C2C600F9DA52 /* PopularCollectionViewCell.swift */; };
+		F1FE810C24B8C2C600F9DA52 /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FE810A24B8C2C600F9DA52 /* PopularCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		F1789ED224B88A9E00002149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1789ED524B88A9E00002149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1789ED724B88A9E00002149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1789EDE24B88B2500002149 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		F1789EDF24B88B2500002149 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		F1789EE024B88B2500002149 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F1789EE124B88B2500002149 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		F1789EE224B88B2500002149 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F1789EE324B88B2500002149 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		F1789EE424B88B2500002149 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F1789EE524B88B2500002149 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F1789EEE24B8B24000002149 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1789EEF24B8B24000002149 /* GameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCollectionViewCell.xib; sourceTree = "<group>"; };
+		F1FE810924B8C2C600F9DA52 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1FE810A24B8C2C600F9DA52 /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F17692C224B8CEA6008D1C83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F1789EBD24B88A9B00002149 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +87,60 @@
 		F1789EC824B88A9B00002149 /* Game Stack */ = {
 			isa = PBXGroup;
 			children = (
-				F1789EC924B88A9B00002149 /* AppDelegate.swift */,
-				F1789ECB24B88A9B00002149 /* SceneDelegate.swift */,
-				F1789ECD24B88A9B00002149 /* ViewController.swift */,
-				F1789ECF24B88A9B00002149 /* Main.storyboard */,
+				F17692C224B8CEA6008D1C83 /* Model */,
+				F1789EDD24B88AF800002149 /* Font */,
+				F1FE810824B8BC2600F9DA52 /* Base */,
+				F1FE810724B8BC1500F9DA52 /* Controller */,
+				F1FE810624B8BBF600F9DA52 /* View */,
 				F1789ED224B88A9E00002149 /* Assets.xcassets */,
 				F1789ED424B88A9E00002149 /* LaunchScreen.storyboard */,
 				F1789ED724B88A9E00002149 /* Info.plist */,
 			);
 			path = "Game Stack";
+			sourceTree = "<group>";
+		};
+		F1789EDD24B88AF800002149 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F1789EE324B88B2500002149 /* Poppins-Black.ttf */,
+				F1789EE024B88B2500002149 /* Poppins-Bold.ttf */,
+				F1789EE524B88B2500002149 /* Poppins-ExtraBold.ttf */,
+				F1789EE224B88B2500002149 /* Poppins-ExtraLight.ttf */,
+				F1789EE124B88B2500002149 /* Poppins-Light.ttf */,
+				F1789EE424B88B2500002149 /* Poppins-Medium.ttf */,
+				F1789EDE24B88B2500002149 /* Poppins-Regular.ttf */,
+				F1789EDF24B88B2500002149 /* Poppins-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F1FE810624B8BBF600F9DA52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1789ECF24B88A9B00002149 /* Main.storyboard */,
+				F1789EEF24B8B24000002149 /* GameCollectionViewCell.xib */,
+				F1FE810A24B8C2C600F9DA52 /* PopularCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1FE810724B8BC1500F9DA52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1789ECD24B88A9B00002149 /* ViewController.swift */,
+				F1789EEE24B8B24000002149 /* GameCollectionViewCell.swift */,
+				F1FE810924B8C2C600F9DA52 /* PopularCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1FE810824B8BC2600F9DA52 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F1789EC924B88A9B00002149 /* AppDelegate.swift */,
+				F1789ECB24B88A9B00002149 /* SceneDelegate.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +201,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1789EE924B88B2500002149 /* Poppins-Light.ttf in Resources */,
 				F1789ED624B88A9E00002149 /* LaunchScreen.storyboard in Resources */,
+				F1789EE824B88B2500002149 /* Poppins-Bold.ttf in Resources */,
 				F1789ED324B88A9E00002149 /* Assets.xcassets in Resources */,
+				F1789EEA24B88B2500002149 /* Poppins-ExtraLight.ttf in Resources */,
 				F1789ED124B88A9B00002149 /* Main.storyboard in Resources */,
+				F1789EEB24B88B2500002149 /* Poppins-Black.ttf in Resources */,
+				F1789EED24B88B2500002149 /* Poppins-ExtraBold.ttf in Resources */,
+				F1789EF124B8B24000002149 /* GameCollectionViewCell.xib in Resources */,
+				F1789EE624B88B2500002149 /* Poppins-Regular.ttf in Resources */,
+				F1789EE724B88B2500002149 /* Poppins-Thin.ttf in Resources */,
+				F1FE810C24B8C2C600F9DA52 /* PopularCollectionViewCell.xib in Resources */,
+				F1789EEC24B88B2500002149 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1789EF024B8B24000002149 /* GameCollectionViewCell.swift in Sources */,
 				F1789ECE24B88A9B00002149 /* ViewController.swift in Sources */,
+				F1FE810B24B8C2C600F9DA52 /* PopularCollectionViewCell.swift in Sources */,
 				F1789ECA24B88A9B00002149 /* AppDelegate.swift in Sources */,
 				F1789ECC24B88A9B00002149 /* SceneDelegate.swift in Sources */,
 			);

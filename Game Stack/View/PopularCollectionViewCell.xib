@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="popularCollection" id="gTV-IL-0wX" customClass="PopularCollectionViewCell" customModule="Game_Stack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aog-Z6-JTC">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lQ7-ad-tgP">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="0tg-JT-Uln"/>
+                                    <constraint firstAttribute="height" constant="180" id="zzq-vH-CDm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="lQ7-ad-tgP" firstAttribute="top" secondItem="Aog-Z6-JTC" secondAttribute="top" id="0pL-dB-cmH"/>
+                            <constraint firstAttribute="trailing" secondItem="lQ7-ad-tgP" secondAttribute="trailing" id="CIe-V5-wuX"/>
+                            <constraint firstItem="lQ7-ad-tgP" firstAttribute="leading" secondItem="Aog-Z6-JTC" secondAttribute="leading" id="PdX-gN-9gr"/>
+                            <constraint firstAttribute="bottom" secondItem="lQ7-ad-tgP" secondAttribute="bottom" id="lf4-FZ-s1E"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Aog-Z6-JTC" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="0Le-mK-QsU"/>
+                <constraint firstItem="Aog-Z6-JTC" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="vmm-Ml-BuW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="popColl" destination="Aog-Z6-JTC" id="aOX-Pw-pIR"/>
+                <outlet property="popGameImage" destination="lQ7-ad-tgP" id="Bcc-6s-jIy"/>
+            </connections>
+            <point key="canvasLocation" x="57.971014492753625" y="105.80357142857143"/>
+        </collectionViewCell>
+    </objects>
+</document>
