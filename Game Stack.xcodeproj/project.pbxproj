@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F17692C624B983A2008D1C83 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17692C524B983A2008D1C83 /* GameData.swift */; };
+		F17692C824B983A9008D1C83 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17692C724B983A9008D1C83 /* GameModel.swift */; };
 		F1789ECA24B88A9B00002149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789EC924B88A9B00002149 /* AppDelegate.swift */; };
 		F1789ECC24B88A9B00002149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789ECB24B88A9B00002149 /* SceneDelegate.swift */; };
 		F1789ECE24B88A9B00002149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1789ECD24B88A9B00002149 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F17692C524B983A2008D1C83 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		F17692C724B983A9008D1C83 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		F1789EC624B88A9B00002149 /* Game Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1789EC924B88A9B00002149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1789ECB24B88A9B00002149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		F17692C224B8CEA6008D1C83 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F17692C524B983A2008D1C83 /* GameData.swift */,
+				F17692C724B983A9008D1C83 /* GameModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 				F1789EF024B8B24000002149 /* GameCollectionViewCell.swift in Sources */,
 				F1789ECE24B88A9B00002149 /* ViewController.swift in Sources */,
 				F1FE810B24B8C2C600F9DA52 /* PopularCollectionViewCell.swift in Sources */,
+				F17692C624B983A2008D1C83 /* GameData.swift in Sources */,
+				F17692C824B983A9008D1C83 /* GameModel.swift in Sources */,
 				F1789ECA24B88A9B00002149 /* AppDelegate.swift in Sources */,
 				F1789ECC24B88A9B00002149 /* SceneDelegate.swift in Sources */,
 			);

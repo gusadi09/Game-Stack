@@ -16,11 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var allGamesCollection: UICollectionView!
     @IBOutlet weak var mostPopCollection: UICollectionView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do anletdditional setup after loading the view.
-        
         UIBeautify()
         
         allGamesCollection.dataSource = self
@@ -70,6 +68,7 @@ class ViewController: UIViewController {
 
 }
 
+//MARK: - UICollectionView
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if (collectionView == mostPopCollection){
@@ -91,3 +90,4 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     }
     
 }
+
